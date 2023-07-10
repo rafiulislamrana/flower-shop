@@ -170,3 +170,36 @@ p{
     gap: 24px;
     padding-top: 48px;
 }
+
+.newsletter-container{
+    background-image: url(images/Rectangle\ 9.png);
+    border-radius: 8px;
+    margin: 0px 12% 128px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.newsletter-form input{
+    padding: 22px 513px 22px 22px;
+    border: none;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
