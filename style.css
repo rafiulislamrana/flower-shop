@@ -58,8 +58,28 @@ p{
 }
 
 .hero-info p{
-    margin-bottom: 52px;
+    margin-bottom: 60px;
     margin-top: 52px;
 }
 
+.align-center{
+    display: block;
+    text-align: center;
+}
 
+.hero-info h2{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sale-container{
+    height: 620px;
+}
+
+.sale-container div p{
+    margin-top: 24px;
+}
